@@ -1,4 +1,4 @@
-# https://t.me/AmRobots_Bots
+# https://t.me/MX_Networks
 import asyncio
 import re
 import ast
@@ -617,7 +617,7 @@ async def auto_filter(client, msg, spoll=False):
     pre = 'filep' if settings['file_secure'] else 'file'
     api = await get_sundisk(msg.chat.id)
     if api is None:
-        api_url = f"https://mdiskshortner.link/st?api=7aeadf631fe48fce0ed4b480300ee24c89a1b8ae&url=https://telegram.me/{temp.U_NAME}?start="
+        api_url = f"https://shorturllink.in/st?api=04149f68412e025782e53adc36e1c6e1cb7d7371&url=https://telegram.me/{temp.U_NAME}?start="
     else:
         api = api["api"]
         api_url = f"https://mdiskshortner.link/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
@@ -639,7 +639,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.append(
-                [InlineKeyboardButton("📥 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 📥 ", url=f"https://t.me/mdiskshortnerlink_tutorial")]
+                [InlineKeyboardButton("📥 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 📥 ", url=f"https://t.me/shorturlink_tutorial")]
             )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
