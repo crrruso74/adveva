@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'AM_ROBOTS')
 API_ID = int(environ.get('API_ID', '24281454'))
 API_HASH = environ.get('API_HASH', 'dbe4521b4291da85becb65c7d4d4c36c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5418719239:AAGkADGB1MD1rRo1Dhi-7F3adgm7aG3H_9I')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5712757359:AAFY6UOTdT8suzGD0sVGPG2fDd95Cu6M3Z4')
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -40,7 +40,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "files")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'files_cloud')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001680737922'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001889413006'))
 SUPPORT_CHAT = environ.get('GROUP', 'MX_Movie_Request')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -52,7 +52,7 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001828308031')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001889413006')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
