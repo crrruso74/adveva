@@ -7,7 +7,7 @@ class script(object):
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 How To Use Bot ? 🔘
-To Use This Movies Search Bot In Your Groups You Just Have A Account In https://mdiskshortner.link/ref/100679702873657924659 From Our Refferal Link |
+To Use This Movies Search Bot In Your Groups You Just Have A Account In https://tinyurl.com/m6f454vw From Our Refferal Link.
 Go To Dashboard -> Menu -> Tools -> Devoloper Api . 
 Copy The Api And Add Movies Search Bot In Group .
 To Connect Your Api Contact @Ayita_P_S To Get Access To Use This Bot In Your Group .
