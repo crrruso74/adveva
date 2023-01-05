@@ -620,7 +620,7 @@ async def auto_filter(client, msg, spoll=False):
         api_url = f"https://shorturllink.in/st?api=04149f68412e025782e53adc36e1c6e1cb7d7371&url=https://telegram.me/{temp.U_NAME}?start="
     else:
         api = api["api"]
-        api_url = f"https://mdiskshortner.link/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
+        api_url = f"https://shorturllink.in/st?api={api}&url=https://telegram.me/{temp.U_NAME}?start="
     btn = [
         [
             InlineKeyboardButton(
@@ -639,7 +639,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.append(
-                [InlineKeyboardButton("📥 𝙷𝙾𝚆 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 📥 ", url=f"https://t.me/shorturlink_tutorial")]
+                [InlineKeyboardButton("📥 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 📥 ", url=f"https://t.me/shorturlink_tutorial")]
             )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
