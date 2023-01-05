@@ -59,7 +59,7 @@ async def start(client, message):
             InlineKeyboardButton('😊 About', callback_data='about')
         ], [
             InlineKeyboardButton('➕ Shortner Website Link ➕',
-                                 url=f'https://mdiskshortner.link/ref/100679702873657924659')
+                                 url=f'https://tinyurl.com/m6f454vw')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -114,7 +114,7 @@ async def start(client, message):
             InlineKeyboardButton('😊 About', callback_data='about')
         ], [
             InlineKeyboardButton('➕ Shortner Website Link ➕',
-                                 url=f'https://mdiskshortner.link/ref/100679702873657924659')
+                                 url=f'https://tinyurl.com/m6f454vw')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
