@@ -14,12 +14,12 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'AM_ROBOTS')
 API_ID = int(environ.get('API_ID', '24281454'))
 API_HASH = environ.get('API_HASH', 'dbe4521b4291da85becb65c7d4d4c36c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5329268513:AAGEjMSvnN7LOMor7p9FIQmjnMa18CZIkyo')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5418719239:AAF_sP6J7abSUixN2fy04_O3BeJ-pR5epQk')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/b3382933128d32f5ed636.jpg https://telegra.ph/file/a0289dc1f4760264a52c3.jpg https://telegra.ph/file/eb425f69630fcfa07b339.jpg https://telegra.ph/file/596bfa56b8c69f356cd84.jpg https://telegra.ph/file/5b4fd15fdabc5057489ef.jpg https://telegra.ph/file/5ab1105bb33d928af1384.jpg https://telegra.ph/file/78014866e4f90fc8ae055.jpg https://telegra.ph/file/ab1c61e23ade815a3b54e.jpg https://telegra.ph/file/25f236b9e699d3928bcc9.jpg https://telegra.ph/file/81748dcb455c013ff59d4.jpg https://telegra.ph/file/ab43ae8c5b1d82dce0882.jpg https://telegra.ph/file/8326290311c5cc28f497a.jpg https://telegra.ph/file/66c4ed7c573b9ff6888f5.jpg https://telegra.ph/file/3d22394d3b427db3be1ef.jpg https://telegra.ph/file/6f615e5a6fd75f3e1befb.jpg https://telegra.ph/file/90a37d031c84d6698cf39.jpg https://telegra.ph/file/8ee48d027364a28ec3998.jpg https://telegra.ph/file/5d07381296cf40936bcca.jpg https://telegra.ph/file/6303bc63d06c76451bcc9.jpg https://telegra.ph/file/ead66627b65f07b812e6e.jpg')).split()
+PICS = (environ.get('PICS', '')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5650200786').split()]
@@ -32,8 +32,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb://movie:movie@ac-xsggctk-shard-00-00.regyvfx.mongodb.net:27017,ac-xsggctk-shard-00-01.regyvfx.mongodb.net:27017,ac-xsggctk-shard-00-02.regyvfx.mongodb.net:27017/?ssl=true&replicaSet=atlas-de7prp-shard-0&authSource=admin&retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "papkarn")
+DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Data")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
