@@ -376,7 +376,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '🔍 Search', switch_inline_query_current_chat=''),
+                '⚡ Group', 'https://t.me/MX_Movie_Request'),
             InlineKeyboardButton(
                 '🤖 Updates', url='https://t.me/MX_Networks')
         ], [
