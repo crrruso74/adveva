@@ -51,9 +51,9 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '⚡ Group', url='https://t.me/MX_Movie_Request'),
+                '🤖 Updates', url='https://t.me/MX_Networks'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/MX_Networks')
+                '♥️ Group', url='https://t.me/MX_Movie_Request')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -106,9 +106,9 @@ async def start(client, message):
                                  url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton(
-                '⚡ Group', url='https://t.me/MX_Movie_Request'),
+                '🤖 Updates', url='https://t.me/MX_Networks'),
             InlineKeyboardButton(
-                '🤖 Updates', url='https://t.me/MX_Networks')
+                '♥️ Group', url='https://t.me/MX_Movie_Request')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
