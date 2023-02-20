@@ -629,7 +629,9 @@ async def auto_filter(client, msg, spoll=False):
         ]
         for file in files
     ]
-
+        btn.append(
+                [InlineKeyboardButton("⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=f"https://t.me/shorturlink_tutorial")]
+            )
         
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
@@ -637,9 +639,7 @@ async def auto_filter(client, msg, spoll=False):
         req = message.from_user.id if message.from_user else 0
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
-        )
-        btn.append(
-                [InlineKeyboardButton("⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=f"https://t.me/shorturlink_tutorial")]
+
             )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
