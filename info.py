@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'AM_ROBOTS')
 API_ID = int(environ.get('API_ID', '24281454'))
 API_HASH = environ.get('API_HASH', 'dbe4521b4291da85becb65c7d4d4c36c')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5418719239:AAF_sP6J7abSUixN2fy04_O3BeJ-pR5epQk')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5636506539:AAFkcOBBZcuTVIzf7VI12zhpB0c7qkG24Ps')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
