@@ -628,7 +628,6 @@ async def auto_filter(client, msg, spoll=False):
             ),
         ]
         for file in files
-    ]
         btn.append(
                 [InlineKeyboardButton("⚡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ⚡", url=f"https://t.me/shorturlink_tutorial")]
             )
